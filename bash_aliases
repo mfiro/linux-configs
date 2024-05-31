@@ -1,0 +1,5 @@
+alias activate='source venv/bin/activate'
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
+alias refresh='sudo apt update && sudo apt -y upgrade && sleep 2 && sudo apt -y autoremove && sudo snap refresh && sudo flatpak update -y'
+alias python='python3.11'
